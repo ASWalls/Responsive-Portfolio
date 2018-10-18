@@ -188,19 +188,28 @@ footer p {
 /****RESPONSIVE STYLES****/
 
 /*980px styles:*/
-@media max-width(980px) {
-
+@media (max-width: 980px) {
+    .header-content {
+        width: 90%;
+    }
+    section {
+        width: 550px;
+        margin-left: 5%;
+    }
+    #about-image {
+        width: 40%;
+    }
 }
 /*End 980px styles*/
 
 /*786px styles:*/
-@media max-width(768px){
+@media (max-width: 768px) {
 
 }
 /*End 786px styles*/
 
 /*640px styles:*/
-@media max-width(640px){
+@media (max-width: 640px) {
 
 }
 /*End 640px styles*/
