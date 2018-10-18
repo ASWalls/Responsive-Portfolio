@@ -85,7 +85,7 @@ section {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    min-height: calc(100vh - 231px);
+    min-height: calc(100vh - 251px);
     
 }
 .container {
@@ -170,7 +170,7 @@ input[type="submit"]{
 footer {
     background: #2E0219;
     border-top: 3px solid #BC0200;
-    height: 50px;
+    height: 70px;
     color: #FFF;
     text-align: center;
 }
@@ -218,7 +218,11 @@ footer p {
 
 /*786px styles:*/
 @media (max-width: 768px) {
-
+    section {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 /*End 786px styles*/
 
