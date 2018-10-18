@@ -197,19 +197,16 @@ footer p {
     #about-image {
         width: 40%;
     }
-
     .project {
         width: 40%;
         margin-right: 30px;
     }
-
     .portfolio-image {
         width: 100%;
     }
     .project-title {
         margin-top: 10px;
     }
-
     #rutgers {
         display: none;
     }
@@ -228,6 +225,25 @@ footer p {
 
 /*640px styles:*/
 @media (max-width: 640px) {
+    header {
+        position: static;
+        height: auto;
+    }
+    .header-content {
+        width: 100%;
+        position: static;
+    }
+    .header-title {
+        position: static;
+        display: block;
+        text-align: center;
+    }
+    nav {
+        position: static;
 
+    }
+    #about-image {
+        width: 100%;
+    }
 }
 /*End 640px styles*/
