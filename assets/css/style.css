@@ -1,0 +1,186 @@
+/*General and utility styles:*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+html, body {
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    color: #2E0219;
+    background-image: url("../images/qbkls.png");
+}
+/*End general and utility styles*/
+
+/*Header specific styles:*/
+header, .container {
+    background: #A7D49B;
+}
+header {
+    height: 75px;
+    border-bottom: 3px solid #BC0200;
+}
+.header-title, nav {
+    position: absolute;
+    bottom: 0;
+}
+.header-title {
+    background: #4A001F;
+    padding: 20px 30px;
+}
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    height: inherit;
+}
+.header-content * {
+    display: inline;
+}
+nav {
+    right: 0;
+    margin-bottom: 30px;
+}
+nav li {
+    padding-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    color: #000;
+}
+a:hover {
+    color: #BC0200;
+}
+/*End Header styles*/
+
+/*h1-3 styles:*/
+h1, h2 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    font-size: 2rem;
+}
+h1 {
+    color: #4A001F;
+}
+h2 {
+    color: #FFF;
+}
+h3 {
+    line-height: 1rem;
+    margin-bottom: 10px;
+}
+/*End h1-3 styles*/
+
+/*Main content specific styles (all pages):*/
+section {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: calc(100vh - 231px);
+    
+}
+.container {
+    padding: 20px 30px;
+    border: 1px solid #BC0200;
+}
+hr {
+    height: 2px;
+    color: #BC0200;
+    background: #BC0200;
+    font-size: 0;
+    border: 0;
+    margin-bottom: 2rem;
+}
+p {
+    line-height: 2rem;
+    margin-top: 0;
+    vertical-align: top;
+    
+}
+/*End main content styles*/
+
+/*About specific styles:*/
+#about-image {
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+}
+#about-container p:first-of-type {
+    margin-top: -10px;
+}
+/*End about styles*/
+
+/*Portfolio specific styles:*/
+#portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    margin: 0 40px 60px 0;
+    position: relative;
+    text-align: center;
+}
+.title-box {
+    background: #4A001F;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 50px;
+}
+.project-title {
+    
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    
+}
+
+/*End portfolio styles*/
+
+/*Contact specific styles:*/
+input[type="text"], textarea {
+    width: calc(100% - 12px);
+    height: 1.5rem;
+    padding: 5px;
+    font-size: inherit;
+    color: inherit;
+    border: 1px solid #BC0200;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 10rem;
+}
+input[type="submit"]{
+    background: #2E0219;
+    color: #FFF;
+    border: none;
+    padding: 7px 18px;
+    font-size: inherit;
+}
+/*End contact styles*/
+
+/*Footer specific styles:*/
+footer {
+    background: #2E0219;
+    border-top: 3px solid #BC0200;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+}
+footer p {
+    vertical-align: bottom;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    font-size: 0.8rem;
+    width: 100%;
+}
+/*End footer styles*/
